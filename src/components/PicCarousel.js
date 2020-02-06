@@ -1,6 +1,5 @@
 import React from 'react';
 import { Carousel } from 'react-bootstrap';
-import ATS from '../assets/ATS_LOGO.png';
 import moutains from '../assets/moutains.jpg';
 import Elk from '../assets/elk.jpg';
 import styled from 'styled-components';
@@ -59,12 +58,11 @@ export const PicCarousel = () => (
           <img alt="" />
         </div>
         <Carousel.Caption className="carousel-cation">
-          <img className="logo" src={ATS} alt="logo" />
-          <h1>Advanced Technology Surveying and Engineering</h1>
+          <h1>ChrisTorresDev</h1>
           <hr />
-          <p>ATS, Inc.</p>
-          <p>9177 N. Hess Street • PO Box 3457</p>
-          <p>Hayden, Idaho 83835-3457</p>
+          <p>Chris Torres Inc.</p>
+          <p>contact@christorresdev.com</p>
+          <p>San Diego</p>
         </Carousel.Caption>
       </Carousel.Item>
       <Carousel.Item id="img2" className="tint">
@@ -72,12 +70,11 @@ export const PicCarousel = () => (
           <img alt="" />
         </div>
         <Carousel.Caption className="carousel-cation">
-          <img className="logo" src={ATS} alt="logo" />
-          <h1>Advanced Technology Surveying and Engineering</h1>
+        <h1>ChrisTorresDev</h1>
           <hr />
-          <p>ATS, Inc.</p>
-          <p>9177 N. Hess Street • PO Box 3457</p>
-          <p>Hayden, Idaho 83835-3457</p>
+          <p>Chris Torres Inc.</p>
+          <p>contact@christorresdev.com</p>
+          <p>San Diego</p>
         </Carousel.Caption>
       </Carousel.Item>
     </Carousel>
