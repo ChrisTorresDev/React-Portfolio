@@ -1,6 +1,6 @@
 import React from 'react';
 import { BrowserRouter as Router, Route, Switch } from 'react-router-dom';
-import { Container, Row, Col } from 'react-bootstrap';
+import { Container } from 'react-bootstrap';
 import { Home } from './Home';
 import { About } from './About';
 import { Projects } from './Projects';
@@ -8,7 +8,7 @@ import { Contact } from './Contact';
 import { NoMatch } from './NoMatch';
 import { Layout } from './components/Layout';
 import { Navigationbar } from './components/NavigationBar';
-import { PicCarousel } from './components/PicCarousel';
+import { Jumbotron } from './components/Jumbotron';
 import { Footer } from './components/Footer';
 import styled from 'styled-components';
 
@@ -24,7 +24,7 @@ function App() {
     <React.Fragment>
       <Styles>
       <Navigationbar />
-      <PicCarousel />
+      <Jumbotron />
       <Container>
             <Layout>
               <Router>
