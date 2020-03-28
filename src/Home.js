@@ -14,7 +14,7 @@ export const Home = () => (
       <h2>Welcome!</h2>
       <hr />
       <div className="section">
-        <p>Welcome to My Site</p>
+        <p>Hello, I'm a software developer based in San Diego, California. Keep scrolling to see my CV, projects, and contact information, or follow the links.</p>
       </div>
     </div>
   </Styles>

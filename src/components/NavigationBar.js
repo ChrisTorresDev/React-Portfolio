@@ -7,15 +7,15 @@ const Styles = styled.div`
     background-color: #111;
   }
   .navbar-brand, .navbar-nav .nav-link{
-    color: #bbb;
+    color: #fff;
 
     &:hover {
-      color: #c50638;
+      color: #15519c;
     }
   }
 
   .navbar-light .navbar-toggler {
-    background-color: #c50638;
+    background-color: #15519c;
   }
 
   img {
@@ -26,10 +26,11 @@ const Styles = styled.div`
 export const Navigationbar = () => (
   <Styles>
     <Navbar className="fixed-top" expand="lg">
-      <Navbar.Brand href="/">ChrisTorresDev</Navbar.Brand>
+      <Navbar.Brand href="/">ChrisTorresDev.Com</Navbar.Brand>
       <Navbar.Toggle aria-controls="basic-navbar-nav" />
       <Navbar.Collapse id="basic-navbar-nav">
         <Nav className="ml-auto">
+          <Nav.Item><Nav.Link href="/resume">Resume</Nav.Link></Nav.Item>
           <Nav.Item><Nav.Link href="/about">About</Nav.Link></Nav.Item>
           <Nav.Item><Nav.Link href="/projects">Projects</Nav.Link></Nav.Item>
           <Nav.Item><Nav.Link href="/contact">Contact</Nav.Link></Nav.Item>
