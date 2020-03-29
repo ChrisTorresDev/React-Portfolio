@@ -49,7 +49,7 @@ export const Jumbotron = () => (
       <Container>
         <div className="text-center title">
           <h1 className="display-4">Chris Torres</h1>
-          <p className="lead">Full Stack Software Developer</p>
+          <p className="lead">Software Developer</p>
         </div>
         <hr className="my-4" />
         <div className="text-center sub-title">

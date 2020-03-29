@@ -12,9 +12,8 @@ const Styles = styled.div`
 export const Footer = () => (
   <Styles>
     <div className="text-center section">
-        <p>ChrisTorresDev</p>
-        <p>Inc.</p>
-        <p>EMAIL: contact@christorresdev.com</p>
+        <p>ChrisTorresDev.Com</p>
+        <p>EMAIL: ctorresdevelop@gmail.com</p>
       </div>
   </Styles>
 )

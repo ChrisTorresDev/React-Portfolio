@@ -2,43 +2,52 @@ import React from 'react';
 import site from './assets/atsinc.jpg';
 import weather from './assets/weatherapp.jpg';
 import todo from './assets/vstda.jpg';
+import styled from 'styled-components';
+
+const Styles = styled.div`
+  .projects {
+    padding-top: 5em;
+  }
+
+  hr {
+    border-top: 1px solid #15519c;
+  }
+`;
 
 
 export const Projects = () => (
-  <div className='container'>
-    <h2>Projects</h2>
-      <hr />
-    <div class="card-group">
-      <div class="card">
-        <img className="card-img-top" src={site} alt="ATS Site" />
-        <div class="card-body">
-          <h5 class="card-title">ATS Inc.</h5>
-          <p class="card-text">This Site was built using React.js</p>
-        </div>
-        <div class="card-body">
-          <a href="http://atsincidaho.com" class="card-link">Visit Site</a>
-        </div>
-      </div>
-      <div class="card">
-        <img className="card-img-top" src={weather} alt="ATS Site" />
-        <div class="card-body">
-          <h5 class="card-title">Weather App</h5>
-          <p class="card-text">description</p>
-        </div>
-        <div class="card-body">
-          <a href="https://cthackathon.herokuapp.com" class="card-link">Weather App</a>
-        </div>
-      </div>
-      <div class="card">
-        <img className="card-img-top" src={todo} alt="To Do App" />
-        <div class="card-body">
-          <h5 class="card-title">Todo App</h5>
-          <p class="card-text">Description</p>
-        </div>
-        <div class="card-body">
-          <a href="https://ctvstda.herokuapp.com/" class="card-link">Todo App</a>
+  <Styles>
+    <div className='container'>
+      <div className="projects">
+        <h2>Projects</h2>
+        <hr />
+        <div className="card-columns">
+          <div className="card">
+            <img className="card-img-top" src={site} alt="ATS Site" />
+            <div className="card-body">
+              <h5 className="card-title">ATS Inc.</h5>
+              <p className="card-text">This Site was built using React.js</p>
+              <a href="http://atsincidaho.com" class="card-link">Visit Site</a>
+            </div>
+          </div>
+          <div className="card">
+            <img className="card-img-top" src={weather} alt="ATS Site" />
+            <div className="card-body">
+              <h5 className="card-title">Weather App</h5>
+              <p className="card-text">description</p>
+              <a href="https://cthackathon.herokuapp.com" class="card-link">Weather App</a>
+            </div>
+          </div>
+          <div className="card">
+            <img className="card-img-top" src={todo} alt="To Do App" />
+            <div className="card-body">
+              <h5 className="card-title">Todo App</h5>
+              <p className="card-text">Description</p>
+              <a href="https://ctvstda.herokuapp.com/" class="card-link">Todo App</a>
+            </div>
+          </div>
         </div>
       </div>
     </div>
-  </div>
+  </Styles>
 )
