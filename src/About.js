@@ -5,6 +5,10 @@ const Styles = styled.div`
   #about {
     padding-top: 5em;
   }
+
+  hr {
+    border-top: 1px solid #962D3E;
+  }
 `;
 
 export const About = () => (

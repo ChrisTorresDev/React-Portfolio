@@ -6,25 +6,10 @@ import undrwater from '../assets/undrwater.jpg';
 const Styles = styled.div`
 
   .jumbo {
-    padding-top: 100px;
-    padding-bottom:50px;
-    background: url(${undrwater}) no-repeat fixed;
-    background-size: cover;
-    background-position: center;
-    color: #fff;
-    position: relative;
-    z-index: -2;
-  }
-
-  .overlay {
-    background-color: #000;
-    opacity: 0.6;
-    position: absolute; 
-    top: 0;
-    left: 0;
-    bottom: 0;
-    right: 0;
-    z-index: -1;
+    background-color: #929292;
+    font-weight: bold;
+    color: white;
+    padding-top: 5em;
   }
 
   .sub-title {
@@ -33,7 +18,7 @@ const Styles = styled.div`
   }
 
   hr {
-    border-top: 1px solid #15519c;
+    border-top: 1px solid #962D3E;
     width: 50%;
   }
 
@@ -49,7 +34,7 @@ export const Jumbotron = () => (
       <Container>
         <div className="text-center title">
           <h1 className="display-4">Chris Torres</h1>
-          <p className="lead">Software Developer</p>
+          <h3 className="lead">Software Engineer</h3>
         </div>
         <hr className="my-4" />
         <div className="text-center sub-title">

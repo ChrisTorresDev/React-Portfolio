@@ -2,14 +2,18 @@ import React from 'react';
 import styled from 'styled-components';
 
 const Styles = styled.div`
-  .section {
-    padding-top: 30px;
-    padding-bottom: 30px;
+  .container {
+    padding-top: 2em;
+    padding-bottom: 3em;
   }
 
   .btn {
-    background-color: #FFB121;
-    border: none;
+    background-color: #348899;
+    border: #348899;
+  }
+
+  hr {
+    border-top: 1px solid #962D3E;
   }
 `;
 
@@ -19,7 +23,7 @@ export const Home = () => (
       <div>
         <h2>Welcome!</h2>
         <hr />
-        <p>Hello, I'm a software developer based in San Diego, California. Keep scrolling to see my Resume, projects, and contact information, or follow the links.</p>
+        <p>Hello, I'm a software engineer based in San Diego, California. Keep scrolling to see my Resume, projects, and contact information, or follow the links.</p>
       </div>
       <div className="text-center">
         <div className="row section">

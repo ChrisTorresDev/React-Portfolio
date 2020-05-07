@@ -10,7 +10,7 @@ const Styles = styled.div`
   }
 
   hr {
-    border-top: 1px solid #15519c;
+    border-top: 1px solid #962D3E;
   }
 `;
 

@@ -4,19 +4,21 @@ import styled from 'styled-components';
 
 const Styles = styled.div`
   .navbar {
-    background-color: #111;
+    background-color: #000;
   }
+
   .navbar-brand, .navbar-nav .nav-link{
-    color: #fff;
+    font-weight: bold;
+    color: #ccc;
 
     &:hover {
-      color: #FFB121;
+      color: #e2e2e2;
     }
 
   }
 
   .navbar-light .navbar-toggler {
-    background-color: #15519c;
+    background-color: #ccc;
   }
 
   img {
