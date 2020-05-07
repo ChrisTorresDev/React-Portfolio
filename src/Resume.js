@@ -74,6 +74,10 @@ export const Resume = () => (
             <li>HTML</li>
             <li>CSS</li>
             <li>JavaScript</li>
+            <li>React</li>
+            <li>Redux</li>
+            <li>Git</li>
+            <li>Heroku</li>
           </ul>
         </div>
       </div>

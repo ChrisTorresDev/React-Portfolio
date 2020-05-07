@@ -9,7 +9,7 @@ const Styles = styled.div`
     background-color: #929292;
     font-weight: bold;
     color: white;
-    padding-top: 5em;
+    margin-top: 56px;
   }
 
   .sub-title {

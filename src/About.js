@@ -3,7 +3,7 @@ import styled from 'styled-components';
 
 const Styles = styled.div`
   #about {
-    padding-top: 5em;
+    padding-top: 3em;
   }
 
   hr {
