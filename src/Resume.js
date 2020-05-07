@@ -9,8 +9,8 @@ const Styles = styled.div`
 }
 
 .head {
-  padding-top: 5em;
-  padding-bottom: 5em;
+  padding-top: 3em;
+  padding-bottom: 3em;
   background-color: #929292;
 }
 
@@ -18,14 +18,19 @@ const Styles = styled.div`
   background-color: #979C9C;
   list-style-type: none;
   padding-left: 3em;
+  padding-bottom: 2em;
 }
 
 #links {
+  padding-top: 2em;
+  padding-bottom: 2em;
 }
+
 
 .details {
   padding-top: 3em;
   padding-left: 3em;
+  padding-bottom: 2em;
 }
 
 hr {
